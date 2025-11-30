@@ -1,2 +1,10 @@
-# simplenetwork
-Le projet vise à concevoir un réseau sécurisé et performant pour une entreprise, incluant des VLANs pour chaque département, un routeur et un switch Cisco, un Wi-Fi par service, un DHCP pour l’attribution IP automatique et un plan d’adressage basé sur 192.168.1.0/24.
+# Description du projet
+Le présent projet consiste à concevoir, déployer et configurer l’infrastructure réseau d’une entreprise afin d’assurer une connectivité fiable, sécurisée et évolutive pour l’ensemble de ses services. L’entreprise est structurée en plusieurs départements (Administration/IT, Finance/RH, et Service Client/Réception), chacun ayant des besoins spécifiques en matière de communication, de sécurité et d’accès aux ressources.
+
+L’objectif principal du projet est de mettre en place un réseau performant permettant aux employés d’accéder efficacement aux services internes (serveurs, Internet, applications métier) tout en garantissant la séparation logique des différents départements au moyen de VLANs. Cette séparation vise à renforcer la sécurité, à optimiser la gestion du trafic et à faciliter la maintenance du réseau.
+
+Le projet inclut l’installation et la configuration d’un routeur et d’un commutateur Cisco en tant qu’équipements principaux du réseau, ainsi que le déploiement d’un réseau sans fil pour permettre aux utilisateurs de chaque département de se connecter via Wi-Fi. Un service DHCP sera configuré de manière centralisée afin d’attribuer automatiquement les adresses IP aux appareils du réseau, simplifiant ainsi la gestion des hôtes. De plus, des règles d’interconnexion seront définies sur le routeur afin de permettre la communication contrôlée entre les différents VLANs tout en respectant les politiques de sécurité de l’entreprise.
+
+Le réseau reposera sur un plan d’adressage basé sur la plage fournie par l’ISP (192.168.1.0/24). Cette plage sera subdivisée en sous-réseaux dédiés à chaque département, garantissant une organisation claire et une gestion optimale des ressources IP.
+
+Enfin, le projet comprendra la mise en œuvre de mesures de sécurité telles que la configuration de mots de passe, la sécurisation des ports du commutateur, la segmentation du trafic, et la protection de l’accès au routeur. Une série de tests fonctionnels sera effectuée afin de vérifier la connectivité, la communication inter-VLAN, l’accès Internet et la performance globale du réseau.
